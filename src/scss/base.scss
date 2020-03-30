@@ -1,6 +1,4 @@
 /* Imports */
-@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
-@import "node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
 
 /* SCSS Variables */
 
@@ -35,10 +33,6 @@ a {
     -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-}
-
-.fa, .fas, .far, .fal, .fab {
-    font-family: "Font Awesome 5 Free";
 }
 
 /* Header */
