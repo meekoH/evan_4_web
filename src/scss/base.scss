@@ -1,0 +1,57 @@
+/* Imports */
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+
+/* SCSS Variables */
+
+/* Generic Selectors */
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Block Level */
+html {
+    font-size: 62.5%; // Setting this to 62.5% for easy rem conversion.
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem; // Sets this to be 16px; standard <body> size.
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.fa, .fas, .far, .fal, .fab {
+    font-family: "Font Awesome 5 Free";
+}
+
+/* Header */
+header {
+
+}
+
+/* Main Navigation */
+nav {
+
+}
+
+/* Main Content */
+main {
+
+}

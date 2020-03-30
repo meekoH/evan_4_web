@@ -1,0 +1,41 @@
+{
+  "name": "evan_4_web",
+  "version": "1.0.0",
+  "description": "Evan 4 Web Development Portfolio",
+  "author": "Evan Paradis",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run watch\" \"npm run start\"",
+    "watch": "node-sass --watch --output-style compressed -o public/assets/css src/scss",
+    "build": "node-sass --output-style compressed -o public/assets/css src/scss",
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0"
+  },
+  "keywords": [
+    "Evan",
+    "Paradis",
+    "Web",
+    "Development",
+    "Front-End",
+    "Front",
+    "Developer",
+    "Portfolio"
+  ],
+  "license": "ISC",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meekoH/evan_4_web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meekoH/evan_4_web/issues"
+  },
+  "homepage": "https://github.com/meekoH/evan_4_web#readme"
+}
